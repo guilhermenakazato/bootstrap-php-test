@@ -30,7 +30,7 @@
       <section id="introduction">
         <div class="column" id="main-description">
           <h1>Explore a new world<br/>of possibilities with<br/>PHP</h1>
-          <a>Get in a touch</a>
+          <a href="pixel.php" target="_blank">Get in a touch</a>
         </div>
 
         <img id="arveres" src="./assets/images/vegetation.png" alt="arveres">
@@ -40,6 +40,7 @@
         <div class="row" id="example-showcase">
           <div class="column">
             <img src="./assets/images/code-icon.png" alt="code icon">
+            <h3>Back-end</h3>
             <p>Lorem ipsum dolor sit amet consectetur.<br/>Vitae nam commodo pulvinar et proin.<br/>Nisi lorem facilisis semper eu nulla at<br/>commodo placerat. Eu velit pulvinar<br/>tristique ultrices pharetra.</p>
             <a href="pixel.php" target="_blank">
               See show case
@@ -47,7 +48,8 @@
             </a>
           </div>
           <div class="column">
-            <img src="./assets/images/code-icon.png" alt="code icon">
+            <img src="./assets/images/brush-icon.png" alt="brush icon">
+            <h3>Back-end</h3>
             <p>Lorem ipsum dolor sit amet consectetur.<br/>Vitae nam commodo pulvinar et proin.<br/>Nisi lorem facilisis semper eu nulla at<br/>commodo placerat. Eu velit pulvinar<br/>tristique ultrices pharetra.</p>
             <a href="pixel.php" target="_blank">
               See show case
@@ -55,13 +57,36 @@
             </a>
           </div>
           <div class="column">
-            <img src="./assets/images/code-icon.png" alt="code icon">
+            <img src="./assets/images/learn-more-icon.png" alt="learn more icon">
+            <h3>Learn more</h3>
             <p>Lorem ipsum dolor sit amet consectetur.<br/>Vitae nam commodo pulvinar et proin.<br/>Nisi lorem facilisis semper eu nulla at<br/>commodo placerat. Eu velit pulvinar<br/>tristique ultrices pharetra.</p>
             <a href="pixel.php" target="_blank">
               See show case
               <img src="./assets/images/open-icon.png" alt="see show case">
             </a>
           </div>
+        </div>
+      </section>
+
+      <section id="details">
+        <div class="column">
+          <div class="row" id="statistics">
+            <div class="column">
+              <h2>Use in differente platforms</h2>
+              <div class="row">
+                <img src="./assets/images/windows.png" alt="Windows logo">
+                <img src="./assets/images/apple.png" alt="Apple logo" id="apple-logo">
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur. Vitae nam commodo<br/>pulvinar et proin. Nisi lorem facilisis semper eu nulla at commodo<br/>placerat. Eu velit pulvinar tristique ultrices pharetra.</p>
+              <a href="">Join</a>
+            </div>
+            <div class="column">
+              <h2>300.000+ developers helping in<br/>our comunnity</h2>
+              <p>Lorem ipsum dolor sit amet consectetur. Vitae nam<br/>commodo pulvinar et proin. Nisi lorem facilisis semper eu<br/>nulla at commodo placerat. Eu velit pulvinar tristique ultrices<br/>pharetra.</p>
+              <a href="">Join</a>
+            </div>
+          </div>
+          <div class="row"></div>
         </div>
       </section>
     </main>

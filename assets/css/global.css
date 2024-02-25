@@ -7,8 +7,11 @@
 
 :root {
   --main-bg-color: #263238;
+  --secondary-bg-color: #15191B;
   --nav-bg-color: #171818;
+  --link-color: #54CCFF;
   font-family: "Open Sans";
+  color: white;
 }
 
 .row {
@@ -26,18 +29,11 @@ a {
   color: white;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  color: white;
-}
-
 nav {
   justify-content: space-between;
   align-items: center;
   padding: 30px 40px;
   background-color: var(--nav-bg-color);
-  color: white;
   z-index: 1;
   position: relative;
 }

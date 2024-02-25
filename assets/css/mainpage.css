@@ -6,7 +6,6 @@ h1 {
   line-height: 81.71px;
   font-weight: 600;
   font-size: 60px;
-  color: white;
 }
 
 #main-description a {
@@ -31,6 +30,7 @@ h1 {
 
 #introduction {
   position: relative;
+  height: 857px;
 }
 
 img#arveres {
@@ -44,10 +44,76 @@ img#arveres {
 }
 
 section#examples img {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1/1;
   width: 32px;
+}
+
+section#examples a {
+  color: var(--link-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+section#examples a img {
+  aspect-ratio: 1/1;
+  width: 14px;
+}
+
+#examples {
+  padding: 180px 100px;
+  background: linear-gradient(
+    180deg,
+    var(--main-bg-color) 90%,
+    var(--secondary-bg-color) 100%
+  );
 }
 
 #example-showcase {
   justify-content: space-between;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#details {
+  background-color: var(--secondary-bg-color);
+}
+
+#statistics {
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#statistics p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#statistics img {
+  aspect-ratio: 1/1;
+  width: 55px;
+  margin: 31px 0;
+}
+
+#apple-logo {
+  position: relative;
+  bottom: 4px;
+  left: 8px;
 }
