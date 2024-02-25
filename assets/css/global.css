@@ -7,9 +7,13 @@
 
 :root {
   --main-bg-color: #263238;
-  --secondary-bg-color: #15191B;
+  --secondary-bg-color: #15191b;
   --nav-bg-color: #171818;
-  --link-color: #54CCFF;
+  --link-color: #54ccff;
+  --button-link-color: #4c7ab0;
+  --main-card-color: #f75585;
+  --secondary-card-color: #8d0c3b61;
+  --tertiary-card-color: #111;
   font-family: "Open Sans";
   color: white;
 }
@@ -36,6 +40,10 @@ nav {
   background-color: var(--nav-bg-color);
   z-index: 1;
   position: relative;
+}
+
+ol {
+  list-style-position: inside;
 }
 
 nav div {

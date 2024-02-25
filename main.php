@@ -72,23 +72,61 @@
         <div class="column">
           <div class="row" id="statistics">
             <div class="column">
-              <h2>Use in differente platforms</h2>
+              <h2>Use in different platforms</h2>
               <div class="row">
                 <img src="./assets/images/windows.png" alt="Windows logo">
                 <img src="./assets/images/apple.png" alt="Apple logo" id="apple-logo">
               </div>
               <p>Lorem ipsum dolor sit amet consectetur. Vitae nam commodo<br/>pulvinar et proin. Nisi lorem facilisis semper eu nulla at commodo<br/>placerat. Eu velit pulvinar tristique ultrices pharetra.</p>
-              <a href="">Join</a>
+              <a href="pixel.php" target="_blank" class="big-button-link">Join</a>
             </div>
             <div class="column">
               <h2>300.000+ developers helping in<br/>our comunnity</h2>
               <p>Lorem ipsum dolor sit amet consectetur. Vitae nam<br/>commodo pulvinar et proin. Nisi lorem facilisis semper eu<br/>nulla at commodo placerat. Eu velit pulvinar tristique ultrices<br/>pharetra.</p>
-              <a href="">Join</a>
+              <a href="pixel.php" target="_blank" class="big-button-link">Join</a>
             </div>
           </div>
-          <div class="row"></div>
+          <div class="row" id="version">
+            <div class="column" id="version-card">
+              <h2 id="version-title">Release 8.2</h2>
+            </div>
+            <div class="column" id="version-changelog">
+              <h4>Preveiw .rev</h4>
+              <ol>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur. Vitae nam commodo pulvinar et proin. Nisi lorem facilisis semper eu nulla at commodo placerat. Eu velit pulvinar tristique ultrices pharetra.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur. Vitae nam commodo pulvinar et proin. Nisi lorem facilisis semper eu nulla at commodo placerat. Eu velit pulvinar tristique ultrices pharetra.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur. Vitae nam commodo pulvinar et proin. Nisi lorem facilisis semper eu nulla at commodo placerat. Eu velit pulvinar tristique ultrices pharetra.
+                </li>
+              </ol>
+              <a href="pixel.php" target="_blank" class="big-button-link">Read more</a>
+            </div>
+          </div>
+          <hr/>
         </div>
       </section>
     </main>
+
+    <footer class="column">
+      <div id="contact-me">
+        <div class="row">
+          <p>Stay in touch:</p>
+          <img src="./assets/images/logo-linkedin.png" alt="LinkedIn logo">
+          <img src="./assets/images/logo-discord.png" alt="Discord logo">
+          <img src="./assets/images/logo-octocat.png" alt="Banana logo">
+        </div>
+        <div class="row">
+          <p>Php news</p>
+          <p>Releases</p>
+          <p>Careers</p>
+          <p>Security</p>
+        </div>
+      </div>
+      <p>Copyright © 2010 TailGrids. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
