@@ -1,0 +1,53 @@
+body {
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+  line-height: 81.71px;
+  font-weight: 600;
+  font-size: 60px;
+  color: white;
+}
+
+#main-description a {
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 49px;
+  border: 0px 20px;
+  width: 289px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  text-align: center;
+}
+
+#main-description {
+  position: relative;
+  z-index: 1;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#introduction {
+  position: relative;
+}
+
+img#arveres {
+  z-index: 0;
+  aspect-ratio: 1 / 1;
+  width: 72%;
+  opacity: 0.8;
+  position: absolute;
+  top: -96px;
+  right: 0;
+}
+
+section#examples img {
+  aspect-ratio: 1 / 1;
+  width: 32px;
+}
+
+#example-showcase {
+  justify-content: space-between;
+}
