@@ -33,36 +33,36 @@
           <a href="pixel.php" target="_blank">Get in a touch</a>
         </div>
 
-        <img id="arveres" src="./assets/images/vegetation.png" alt="arveres">
+        <img id="arveres" src="./assets/images/mainpage/vegetation.png" alt="arveres">
       </section>
 
       <section id="examples">
         <div class="row" id="example-showcase">
           <div class="column">
-            <img src="./assets/images/code-icon.png" alt="code icon">
+            <img src="./assets/images/mainpage/code-icon.png" alt="code icon">
             <h3>Back-end</h3>
             <p>Lorem ipsum dolor sit amet consectetur.<br/>Vitae nam commodo pulvinar et proin.<br/>Nisi lorem facilisis semper eu nulla at<br/>commodo placerat. Eu velit pulvinar<br/>tristique ultrices pharetra.</p>
             <a href="pixel.php" target="_blank">
               See show case
-              <img src="./assets/images/open-icon.png" alt="see show case">
+              <img src="./assets/images/mainpage/open-icon.png" alt="see show case">
             </a>
           </div>
           <div class="column">
-            <img src="./assets/images/brush-icon.png" alt="brush icon">
+            <img src="./assets/images/mainpage/brush-icon.png" alt="brush icon">
             <h3>Back-end</h3>
             <p>Lorem ipsum dolor sit amet consectetur.<br/>Vitae nam commodo pulvinar et proin.<br/>Nisi lorem facilisis semper eu nulla at<br/>commodo placerat. Eu velit pulvinar<br/>tristique ultrices pharetra.</p>
             <a href="pixel.php" target="_blank">
               See show case
-              <img src="./assets/images/open-icon.png" alt="see show case">
+              <img src="./assets/images/mainpage/open-icon.png" alt="see show case">
             </a>
           </div>
           <div class="column">
-            <img src="./assets/images/learn-more-icon.png" alt="learn more icon">
+            <img src="./assets/images/mainpage/learn-more-icon.png" alt="learn more icon">
             <h3>Learn more</h3>
             <p>Lorem ipsum dolor sit amet consectetur.<br/>Vitae nam commodo pulvinar et proin.<br/>Nisi lorem facilisis semper eu nulla at<br/>commodo placerat. Eu velit pulvinar<br/>tristique ultrices pharetra.</p>
             <a href="pixel.php" target="_blank">
               See show case
-              <img src="./assets/images/open-icon.png" alt="see show case">
+              <img src="./assets/images/mainpage/open-icon.png" alt="see show case">
             </a>
           </div>
         </div>
@@ -74,8 +74,8 @@
             <div class="column">
               <h2>Use in different platforms</h2>
               <div class="row">
-                <img src="./assets/images/windows.png" alt="Windows logo">
-                <img src="./assets/images/apple.png" alt="Apple logo" id="apple-logo">
+                <img src="./assets/images/mainpage/windows.png" alt="Windows logo">
+                <img src="./assets/images/mainpage/apple.png" alt="Apple logo" id="apple-logo">
               </div>
               <p>Lorem ipsum dolor sit amet consectetur. Vitae nam commodo<br/>pulvinar et proin. Nisi lorem facilisis semper eu nulla at commodo<br/>placerat. Eu velit pulvinar tristique ultrices pharetra.</p>
               <a href="pixel.php" target="_blank" class="big-button-link">Join</a>
@@ -115,9 +115,9 @@
       <div id="contact-me">
         <div class="row">
           <span>Stay in touch:</span>
-          <img src="./assets/images/logo-linkedin.png" alt="LinkedIn logo">
-          <img src="./assets/images/logo-discord.png" alt="Discord logo">
-          <img src="./assets/images/logo-octocat.png" alt="Banana logo">
+          <img src="./assets/images/mainpage/logo-linkedin.png" alt="LinkedIn logo">
+          <img src="./assets/images/mainpage/logo-discord.png" alt="Discord logo">
+          <img src="./assets/images/mainpage/logo-github.png" alt="Github logo">
         </div>
         <div class="row">
           <a href="pixel.php" target="_blank">Php news</a>

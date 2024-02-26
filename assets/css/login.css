@@ -1,0 +1,17 @@
+main {
+  background-image: url("../images/login/compiuter.png");
+  height: calc(100vh - 104px);
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+}
+
+div#form {
+  width: 35%;
+  padding: 60px 24px;
+  background-color: var(--form-bg-color);
+  border: 2px solid var(--form-border-color);
+  text-align: center;
+}
