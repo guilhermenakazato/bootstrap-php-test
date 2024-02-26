@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 body {
   background: linear-gradient(
     180deg,
@@ -211,16 +213,27 @@ footer {
   font-size: 16px;
 }
 
-#contact-me p {
-  border: 1px solid red;
-}
-
 #contact-me div.row {
   align-items: center;
-  border: 1px solid red;
+}
+
+#contact-me div.row:first-child {
+  margin-bottom: 12px;
+}
+
+#contact-me div a {
+  text-decoration: underline;
 }
 
 #contact-me img {
   aspect-ratio: 1/1;
   width: 24px;
+}
+
+footer p {
+  color: var(--copyright-text-color);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
 }

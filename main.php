@@ -114,16 +114,16 @@
     <footer class="column">
       <div id="contact-me">
         <div class="row">
-          <p>Stay in touch:</p>
+          <span>Stay in touch:</span>
           <img src="./assets/images/logo-linkedin.png" alt="LinkedIn logo">
           <img src="./assets/images/logo-discord.png" alt="Discord logo">
           <img src="./assets/images/logo-octocat.png" alt="Banana logo">
         </div>
         <div class="row">
-          <p>Php news</p>
-          <p>Releases</p>
-          <p>Careers</p>
-          <p>Security</p>
+          <a href="pixel.php" target="_blank">Php news</a>
+          <a href="pixel.php" target="_blank">Releases</a>
+          <a href="pixel.php" target="_blank">Careers</a>
+          <a href="pixel.php" target="_blank">Security</a>
         </div>
       </div>
       <p>Copyright © 2010 TailGrids. All Rights Reserved.</p>
