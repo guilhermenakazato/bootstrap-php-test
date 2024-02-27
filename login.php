@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="./assets/css/global.css">
-  <link rel="stylesheet" href="./assets/css/login.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+  </head>
+  <body>
     <nav class="row">
       <div class="row">
-        <img src="./assets/images/php.png" alt="PHP logo">
+        <a href="main.php">
+          <img src="./assets/images/php.png" alt="PHP logo">
+        </a>
         <div class="row text-links">
           <a target="_blank" href="pixel.php">Home</a>
           <a target="_blank" href="pixel.php">What's Php?</a>
@@ -29,23 +31,31 @@
     <main class="column">
       <div class="column" id="form">
         <h2>Login</h2>
-        <form autocomplete="off">
-          <input type="email" name="" id="" placeholder="enteryouremail@gmail.com">
-          <input type="password" name="" id="" placeholder="enter your password">
+        <form>
+          <div class="input-container">
+            <input type="email" name="email" id="email" placeholder="enteryouremail@gmail.com">
+            <label for="email">E-mail</label>
+          </div>
+          <div class="input-container">
+            <input type="password" name="password" id="password" placeholder="enter your password">
+            <label for="password">Password</label>
+            <img src="./assets/images/login/toggle-visibility-icon.png" alt="toggle visibility icon" onclick="toggleVisibility()">
+          </div>
           <div class="row">
             <label class="row">
               <input type="checkbox" name="" id="lembrar" name="lembrar">
               Lembrar meu login
             </label>
-            <p>Recuperar conta</p>
+            <a id="recover" href="pixel.php" target="_blank">Recuperar conta</a>
           </div>
         </form>
         
-        <a href="">Entrar</a>
+        <a href="community.php">Entrar</a>
         <hr/>
         <p>Ainda não tem uma conta?</p>
-        <a href="">Criar conta</a>
+        <a href="signup.php">Criar conta</a>
       </div>
     </main>
-</body>
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>

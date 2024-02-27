@@ -10,7 +10,9 @@
   <body>
     <nav class="row">
       <div class="row">
-        <img src="./assets/images/php.png" alt="PHP logo">
+        <a href="main.php">
+          <img src="./assets/images/php.png" alt="PHP logo">
+        </a>
         <div class="row text-links">
           <a target="_blank" href="pixel.php">Home</a>
           <a target="_blank" href="pixel.php">What's Php?</a>
