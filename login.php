@@ -27,8 +27,24 @@
     </nav>
     
     <main class="column">
-      <div id="form">
+      <div class="column" id="form">
         <h2>Login</h2>
+        <form autocomplete="off">
+          <input type="email" name="" id="" placeholder="enteryouremail@gmail.com">
+          <input type="password" name="" id="" placeholder="enter your password">
+          <div class="row">
+            <label class="row">
+              <input type="checkbox" name="" id="lembrar" name="lembrar">
+              Lembrar meu login
+            </label>
+            <p>Recuperar conta</p>
+          </div>
+        </form>
+        
+        <a href="">Entrar</a>
+        <hr/>
+        <p>Ainda não tem uma conta?</p>
+        <a href="">Criar conta</a>
       </div>
     </main>
 </body>

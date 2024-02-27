@@ -17,6 +17,9 @@
   --copyright-text-color: #d0d0d0;
   --form-bg-color: #1e2326fa;
   --form-border-color: #434343;   
+  --input-border-color: #272d30;
+  --input-bg-color: #161a1c;
+  --checkbox-border-color: #acacac;
   font-family: "Open Sans";
   color: white;
 }
