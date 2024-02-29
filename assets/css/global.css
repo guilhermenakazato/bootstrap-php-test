@@ -21,6 +21,8 @@
   --input-bg-color: #161a1c;
   --checkbox-border-color: #acacac;
   --input-placeholder-color: #a5a5a5;
+  --checkbox-hover-bg-color: #4e4e4e;
+  --checkbox-selected-bg-color: #10cb71;
   font-family: "Open Sans";
   color: white;
 }
@@ -36,11 +38,8 @@
 }
 
 a {
-  display: flex;
-  flex-direction: column;
   text-decoration: none;
   color: white;
-  align-items: center;
 }
 
 nav {
@@ -61,8 +60,11 @@ nav div {
 }
 
 nav div a {
+  display: flex;
+  flex-direction: column;
   font-weight: 400;
   font-size: 18px;
+  align-items: center;
 }
 
 nav div img {
